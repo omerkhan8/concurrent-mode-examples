@@ -9,6 +9,11 @@ const Home = props => {
         <li>
           <Link to="/suspense-example1">suspense for data fetching</Link>
         </li>
+        <li>
+          <Link to="/suspense-example2">
+            Fetch on render (without suspense)
+          </Link>
+        </li>
       </ol>
     </div>
   );
