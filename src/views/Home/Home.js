@@ -19,8 +19,11 @@ const Home = props => {
         </li>
         <li>
           <Link to="/suspense-example4">
-            Solving Raee condition with suspense
+            Solving Race condition with suspense
           </Link>
+        </li>
+        <li>
+          <Link to="/suspense-example5">suspense with transition</Link>
         </li>
       </ol>
     </div>

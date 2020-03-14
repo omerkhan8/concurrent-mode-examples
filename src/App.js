@@ -6,6 +6,7 @@ import SuspenseExample1 from "./views/SuspenseExample1";
 import SuspenseExample2 from "./views/SuspenseExample2";
 import SuspenseExample3 from "./views/SuspenseExample3";
 import SuspenseExample4 from "./views/SuspenseExample4";
+import SuspenseExample5 from "./views/SuspenseExample5";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/suspense-example2" component={SuspenseExample2} />
         <Route path="/suspense-example3" component={SuspenseExample3} />
         <Route path="/suspense-example4" component={SuspenseExample4} />
+        <Route path="/suspense-example5" component={SuspenseExample5} />
       </Switch>
     </div>
   );
