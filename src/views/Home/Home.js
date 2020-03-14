@@ -14,6 +14,14 @@ const Home = props => {
             Fetch on render (without suspense)
           </Link>
         </li>
+        <li>
+          <Link to="/suspense-example3">Race Condition (without suspense)</Link>
+        </li>
+        <li>
+          <Link to="/suspense-example4">
+            Solving Raee condition with suspense
+          </Link>
+        </li>
       </ol>
     </div>
   );
